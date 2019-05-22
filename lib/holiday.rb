@@ -49,8 +49,6 @@ def all_winter_holiday_supplies(holiday_hash)
   newarray = []
   winter_supplies = []
   holiday_hash[:winter].values << newarray
-  winter_supplies = newarray.flatten
-  winter_supplies
 end
 
 def all_supplies_in_holidays(holiday_hash)
